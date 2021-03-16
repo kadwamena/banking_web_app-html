@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    overflow-x: hidden;
 }
 
 .container {
@@ -8,23 +9,45 @@ body {
 
 .top {
    display: flex;
-   border: 1px solid blue;
    width: 99vw;
    justify-content: space-between;
    font-size: 20px;
 }
 
+.search {
+    border-radius: 25px;
+    height: 5vh;
+    outline: none;
+}
+
 ul li {
     padding: 5px;
-    border: 1px solid red;
     display: inline;
     padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 
 .name {
     padding: 10px;
+    font-family: Fantasy, Poppins, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
 }
 
 li a {
     text-decoration: none;
+    color: #000;
+    font-weight: 700;
+}
+
+.top img {
+    height: 8vh;
+    width: 10vw;
+    margin-right: 30px;
+}
+
+.slideshow .mySlides {
+    width: 98vw;
+    height: 70vh;
 }
