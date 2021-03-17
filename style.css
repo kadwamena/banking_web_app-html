@@ -61,3 +61,22 @@ li a {
     height: 70vh;
 }
 
+.board-images {
+    height: 50vh;
+    width: 80vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    margin: 8em;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.board-img-1, 
+.board-img-2,
+.board-img-3, 
+.board-img-4, 
+.board-img-5 {
+    height: 30vh;
+    width: 20vw;
+}
