@@ -6,6 +6,11 @@ body {
 .container {
     width: 100%;
 }
+.text-1 {
+position: absolute;
+top: 40%;
+}
+
 
 .top {
    display: flex;
@@ -24,7 +29,7 @@ ul li {
     padding: 5px;
     display: inline;
     padding: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: monospace, Geneva, Tahoma, sans-serif;
     
 }
 
@@ -47,7 +52,12 @@ li a {
     margin-right: 30px;
 }
 
+.slideshow {
+    position: relative;
+}
+
 .slideshow .mySlides {
     width: 98vw;
     height: 70vh;
 }
+
