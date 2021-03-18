@@ -61,11 +61,59 @@ li a {
     height: 70vh;
 }
 
+.promos {
+    position: absolute;
+    top: 60%;
+    left: 18%;
+    font-size: 20px;
+    background-color: #fff;
+    color: #000;
+    padding: 50px 20px;
+    border-radius: 0 10px 0 10px;
+    width: 400px;
+    height: 100px;
+    text-align: center;
+}
+
+.offers {
+        height: 60vh;
+        width: 90vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        /* column-gap: 1px; */
+        justify-content: center;
+        margin: 8em;
+        margin-top: 5%;
+        margin-bottom: 5%;
+}
+
+.offer-img-1,
+.offer-img-2,
+.offer-img-3,
+.offer-img-4 {
+    height: 30vh;
+    width: 20vw;
+}
+
+.news {
+        height: 60vh;
+        width: 90vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        /* column-gap: 1px; */
+        justify-content: center;
+        margin: 8em;
+        margin-top: 5%;
+        margin-bottom: 5%;
+}
+/* Stylesheet for 
+about.html */
+
 .board-images {
     height: 50vh;
     width: 80vw;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
     margin: 8em;
     margin-top: 5%;
